@@ -4,9 +4,13 @@ services:
   web: 
     container_name: web
     image: python
+    ports:
+      - "8080:8080"
   database:
     container_name: database
     image: postgres
+    ports:
+      - "5432:5432" 
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
