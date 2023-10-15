@@ -4,6 +4,7 @@ services:
   web: 
     container_name: web
     image: python
+    build: .
     ports:
       - "8080:8080"
   database:
