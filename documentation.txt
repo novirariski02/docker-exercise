@@ -1,0 +1,13 @@
+dockerfile = mendefinisikan cara membangun Docker Image
+file.py = yang akan dijalankan dalam Docker container
+requirement.txt = file berisi libraries yang diperlukan untuk menjalankan project
+docker-compose = tool untuk menghubungkan berbagai aplikasi dengan beberapa kontainer
+
+langkah pengerjaan 
+1. Install Docker
+2. Membuat Docker Compose 
+3. Membuat Dockerfile 
+4. membuat file script python dengan nama data_ingestion_script.py
+5. Build Docker image berdasarkan Dockerfile dan konfigurasi dari dockercompose
+6. Run containers
+7. Jalankan data_ingestion_script.py dalam containers
